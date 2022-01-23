@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+   -webkit-tap-highlight-color: transparent;
+}
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+body {
+   font-family: $font-primary;
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 1.6;
+   background-color: $background-color;
+}
